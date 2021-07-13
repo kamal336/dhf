@@ -42,10 +42,6 @@ header{
     margin-top: 5px;
 }
 
-nav{
-  
-}
-
 nav ul{
    display: flex;
 }
@@ -179,11 +175,6 @@ footer{
    text-align: center;
    margin-top: 20px;
    color: white;
-}
-
-.social-icon{
- 
-
 }
 
 .media-icon{
