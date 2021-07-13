@@ -25,6 +25,45 @@ main{
 }
 /* common style ends from here */
 
+/* header starts from here*/
+
+header{
+    display: flex;
+    justify-content: space-around;
+    background: #562EFF;
+
+}
+
+.header-logo img{
+    width: 50px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin-top: 5px;
+}
+
+nav{
+  
+}
+
+nav ul{
+   display: flex;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.lonin-icon{
+    font-size: 28px;
+}
+/* header ends from here*/
+
 /* top players starts from here */
 .top-players{
     margin-bottom: 22px;
@@ -131,6 +170,29 @@ hr{
 }
 
 /*Latest courses section ends from here*/
+
+/* footer starts from here */
+footer{
+    background-color: rgb(110, 96, 235);
+   display: grid;
+   grid-template-columns: auto auto;
+   text-align: center;
+   margin-top: 20px;
+   color: white;
+}
+
+.social-icon{
+ 
+
+}
+
+.media-icon{
+    font-size: 30px;
+    padding:15px;
+    
+}
+
+/* footer ends from here */
 
 /* Media queries starts from here*/
 
